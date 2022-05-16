@@ -25,7 +25,7 @@ export function AuthProvider(props){
         logout
     };
 
-    login()
+
     return(
         <AuthContext.Provider value={valueContext}>
             {children}
